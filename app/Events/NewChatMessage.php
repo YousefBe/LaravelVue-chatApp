@@ -28,10 +28,7 @@ class NewChatMessage implements ShouldBroadcast
     }
 
 
-    public function broadcastAs()
-    {
-        return 'message.new';
-    }
+
     /**
      * Get the channels the event should broadcast on.
      *
